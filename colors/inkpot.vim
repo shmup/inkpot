@@ -62,6 +62,7 @@ if has("gui_running")
     hi ModeMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
     hi MoreMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
     hi Question       gui=BOLD   guifg=#ffcd00   guibg=NONE
+    hi SignColumn     guibg=#0f0f0f
 
     hi StatusLine     gui=BOLD   guifg=#b9b9b9   guibg=#3e3e5e
     hi User1          gui=BOLD   guifg=#00ff8b   guibg=#3e3e5e
