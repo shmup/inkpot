@@ -53,7 +53,8 @@ if has("gui_running")
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
     endif
 
-    hi CursorLine         guibg=#2e2e37
+    hi CursorLine     guibg=#2e2e37
+    hi CursorColumn   guibg=#2e2e37
 
     hi IncSearch      gui=BOLD   guifg=#303030   guibg=#cd8b60
     hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57
