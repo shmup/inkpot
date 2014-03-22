@@ -55,15 +55,17 @@ if has("gui_running")
 
     hi CursorLine     guibg=#2e2e37
     hi CursorColumn   guibg=#2e2e37
+    hi CursorLineNr   guifg=#006D00 
+    hi CursorLineNr   guibg=#AFDF00
 
-    hi IncSearch      gui=BOLD   guifg=#303030   guibg=#cd8b60
-    hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57
+    hi IncSearch      gui=BOLD   guifg=#006D00   guibg=#AFDF00
+    hi Search         gui=NONE   guifg=#ffffff   guibg=#ad7b57
     hi ErrorMsg       gui=BOLD   guifg=#ffffff   guibg=#ce4e4e
     hi WarningMsg     gui=BOLD   guifg=#ffffff   guibg=#ce8e4e
     hi ModeMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
     hi MoreMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
     hi Question       gui=BOLD   guifg=#ffcd00   guibg=NONE
-    hi SignColumn     guibg=#0f0f0f
+    hi SignColumn     guibg=#1E1E27
 
     hi StatusLine     gui=BOLD   guifg=#b9b9b9   guibg=#3e3e5e
     hi User1          gui=BOLD   guifg=#00ff8b   guibg=#3e3e5e
